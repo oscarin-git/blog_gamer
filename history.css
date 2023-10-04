@@ -1,0 +1,96 @@
+/* the css of the historys here */
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-top: 70px;
+}
+
+.body--green{
+    background-image: url(./Imagenes/green.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body--blue{
+    background-image: url(./Imagenes/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body--red{
+    background-image: url(./Imagenes/red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body--yellow{
+    background-image: url(./Imagenes/yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main__title{
+    position: relative;
+    text-align: center;
+    height: 200px;
+    width: 650px;
+    
+    margin: 0 auto;
+    border-radius: 20px;
+    top: 15px;
+}
+
+.card__color--green{
+    background-color: green;
+    color: white;
+}
+
+.card__color--blue{
+    background-color: blue;
+    color: white;
+}
+
+.card__color--red{
+    background-color: brown;
+    color: white;
+}
+
+.card__color--yellow{
+    background-color: yellowgreen;
+    color: white;
+}
+
+.main__title--light{
+    position: absolute;
+    top: 15px;
+    left: 65px;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    text-align: left;
+    width: 650px;
+    height: 680px;
+    margin: 0 auto;
+
+    border-radius: 20px;
+}
+
+.text__card{
+    margin: 20px 20px;
+    padding: 50px 20px;
+    text-align: justify;
+}
+
+.card__link{
+    position: absolute;
+    padding: 0.7em 2em;
+    background-color: #fff;
+    border-radius: 1.2em;
+    text-decoration: none;
+    bottom: 15px;
+    left: 220px;
+}
